@@ -1,0 +1,14 @@
+POST http://localhost:5034/products
+Content-Type: application/json
+
+{
+  "name": "Faro Cookies",
+  "description": "Salty crackers made on the Dominican Republic",
+  "category": "Cookies",
+  "vendor": "Importadora Santiago",
+  "tags": [
+    "Dominican",
+    "Snacks",
+    "Cookies"
+  ]
+}

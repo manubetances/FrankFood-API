@@ -1,0 +1,16 @@
+@id=00000000-0000-0000-0000-000000000000
+
+PUT http://localhost:5034/products/{{id}}
+Content-Type: application/json
+
+{
+  "name": "Faro Cookies",
+  "description": "Salty crackers made on the Dominican Republic",
+  "category": "Cookies",
+  "vendor": "Importadora Santiago",
+  "tags": [
+    "Dominican",
+    "Snacks",
+    "Cookies"
+  ]
+}
