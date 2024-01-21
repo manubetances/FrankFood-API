@@ -6,6 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="1.9.0" />
+  </ItemGroup>
+
 	<ItemGroup>
 		<ProjectReference Include="..\FrankFood.Contracts\FrankFood.Contracts.csproj" />
 	</ItemGroup>
